@@ -39,7 +39,7 @@ jobs:
 
       - uses: actions/setup-node@master
         with:
-          node-version: 16.13
+          node-version: 20.10.0
 
       - name: Cache pnpm modules
         uses: actions/cache@v2
